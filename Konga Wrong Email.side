@@ -1,0 +1,191 @@
+{
+  "id": "08c90426-e095-4336-adb8-0a0e413afccb",
+  "version": "2.0",
+  "name": "Konga",
+  "url": "https://www.konga.com",
+  "tests": [{
+    "id": "de0f7e7c-ab61-4252-8f07-147ac1badbf6",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "ce0b65fe-ee52-40df-b877-d664247688f9",
+    "name": "Wrong Email",
+    "commands": [{
+      "id": "545ec09f-842a-452d-a509-2d2636079acc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ab5e79f-4ede-4aef-ac40-47b43b71afd7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7bd3a12-a14e-4579-930d-26f621c2c912",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.items-start > span:nth-child(2)",
+      "targets": [
+        ["css=.items-start > span:nth-child(2)", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign Up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e8ccc29-12f4-4812-80b3-19e3a21b3e49",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.items-start > span:nth-child(2)",
+      "targets": [
+        ["css=.items-start > span:nth-child(2)", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Sign Up')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07bc3245-f228-4f36-a146-17a04124990a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.bg-primary-500:nth-child(1)",
+      "targets": [
+        ["css=.bg-primary-500:nth-child(1)", "css:finder"],
+        ["xpath=//div[3]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login/Signup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3756c089-a574-4363-a568-392eb4e8abd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-primary-500:nth-child(1)",
+      "targets": [
+        ["css=.bg-primary-500:nth-child(1)", "css:finder"],
+        ["xpath=//div[3]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login/Signup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b38a915-e2e7-427f-8782-3a75e8a28d24",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29306891-23e6-410c-acdd-8d42363ac8d7",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "jddd@gmail.com"
+    }, {
+      "id": "d7aebb98-8a79-4a9d-9bd5-14bee0c52b7e",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3882739b-3265-4327-833b-a6e3b866e050",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Janded987*k"
+    }, {
+      "id": "10fbb05f-0285-4cab-9ad6-8f0fc2091b75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover\\3A bg-primary-400",
+      "targets": [
+        ["css=.hover\\3A bg-primary-400", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//div[2]/div/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55cca601-02ac-47f8-97cb-ed6e2c2c8ee2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-left > .relative:nth-child(1)",
+      "targets": [
+        ["css=.text-left > .relative:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/div/form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fe4668b-82eb-46ed-b0da-176cfe8b1c10",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-red-600",
+      "targets": [
+        ["css=.text-red-600", "css:finder"],
+        ["xpath=//div[2]/div/form/div/div", "xpath:position"]
+      ],
+      "value": "The username or password you have entered is incorrect. Please try again."
+    }, {
+      "id": "b47ad74e-9c53-443e-b7e4-ec961ccbb317",
+      "comment": "",
+      "command": "click",
+      "target": "css=.border-steel-grey > .text-13",
+      "targets": [
+        ["css=.border-steel-grey > .text-13", "css:finder"],
+        ["xpath=//div/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Close')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6e0a4c6-d062-4777-a165-aca6a578d2a3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "096cbe20-a906-4be3-ab58-3d3bfe016b02",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["de0f7e7c-ab61-4252-8f07-147ac1badbf6"]
+  }, {
+    "id": "29771d2b-7355-443c-8bb8-58859a29b074",
+    "name": "Konga Login",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}

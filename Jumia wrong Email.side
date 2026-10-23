@@ -1,0 +1,286 @@
+{
+  "id": "44d27d4e-59c8-4a27-b7b5-74c352ff3862",
+  "version": "2.0",
+  "name": "Jumia",
+  "url": "https://www.jumia.com.ng/",
+  "tests": [{
+    "id": "c9af59bb-0e69-40b3-ac2f-ddb76b18f83d",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "3fd94d80-afaa-4526-b041-73657156c554",
+    "name": "Wrong Email",
+    "commands": [{
+      "id": "2df127bb-239e-4d14-9ce7-5d0bb1eb8fc7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.jumia.com.ng/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83e69a87-0a14-445e-b205-3f85a82e4a9d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ff4e502-e0a5-4caf-a654-bdaeff8ad145",
+      "comment": "",
+      "command": "click",
+      "target": "css=.-plm:nth-child(1)",
+      "targets": [
+        ["css=.-plm:nth-child(1)", "css:finder"],
+        ["xpath=//button[@value='all']", "xpath:attributes"],
+        ["xpath=//form[@id='consentForm']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Accept All Cookies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08b86773-d41a-4fca-8420-342bc5c185b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dpdw:nth-child(1) > .trig > .ic",
+      "targets": [
+        ["css=.dpdw:nth-child(1) > .trig > .ic", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "836fa04c-3562-428b-9577-46ba2ea42967",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=.-hr-bb > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//div[@id='dpdw-login-box']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/customer/account/login/?return=%2F')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cedbfbc-5523-4d81-83ed-e24f84aa6824",
+      "comment": "",
+      "command": "click",
+      "target": "css=.overlay",
+      "targets": [
+        ["css=.overlay", "css:finder"],
+        ["xpath=//div[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d023b8d-de7b-43e8-88ae-6505cadca62e",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_identifierValue",
+      "targets": [
+        ["id=input_identifierValue", "id"],
+        ["name=identifierValue", "name"],
+        ["css=#input_identifierValue", "css:finder"],
+        ["xpath=//input[@id='input_identifierValue']", "xpath:attributes"],
+        ["xpath=//form[@id='identification-form']/div/div[2]/div/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "djj@gmail.com"
+    }, {
+      "id": "c7b942fd-c34b-4434-87d2-40778f6ee952",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button__touch",
+      "targets": [
+        ["css=.mdc-button__touch", "css:finder"],
+        ["xpath=//form[@id='identification-form']/div/div[3]/div[2]/button/span[3]", "xpath:idRelative"],
+        ["xpath=//button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cf2ebac-a895-4e25-8b42-c93b8192d5b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button--raised > .mdc-button__touch",
+      "targets": [
+        ["css=.mdc-button--raised > .mdc-button__touch", "css:finder"],
+        ["xpath=//div[@id='card_verification']/div[3]/div/button/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f597ffe2-4031-453d-8318-b7b726af1aac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-text-field-helper-text",
+      "targets": [
+        ["css=.mdc-text-field-helper-text", "css:finder"],
+        ["xpath=//div[@id='verificationCodeErrorMsg']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "295728f3-53d1-4177-9358-3809dd64cbc1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.mdc-text-field-helper-text",
+      "targets": [
+        ["css=.mdc-text-field-helper-text", "css:finder"],
+        ["xpath=//div[@id='verificationCodeErrorMsg']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": "This verification code is not valid."
+    }, {
+      "id": "c5a413b0-985a-4c76-b051-73390abd66a6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "004e47bc-8a62-44c0-a9d8-35f17ec357a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dpdw:nth-child(1) .-elli",
+      "targets": [
+        ["css=.dpdw:nth-child(1) .-elli", "css:finder"],
+        ["xpath=//div[@id='jm']/header/section/div[3]/div/label/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02902345-fb73-4c26-bcf4-a79ab9b34c7a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=.-hr-bb > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//div[@id='dpdw-login-box']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/customer/account/login/?return=%2F')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3333e18f-82b1-4b43-84e1-b59571563ab3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=.-hr-bb > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//div[@id='dpdw-login-box']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/customer/account/login/?return=%2F')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cad185f2-15b3-4015-b82a-5f306e5b33e7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign In",
+      "targets": [
+        ["linkText=Sign In", "linkText"],
+        ["css=.-hr-bb > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//div[@id='dpdw-login-box']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/customer/account/login/?return=%2F')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c36ab5db-9b4e-4550-a23d-ae7ba5a6752d",
+      "comment": "",
+      "command": "click",
+      "target": "id=input_identifierValue",
+      "targets": [
+        ["id=input_identifierValue", "id"],
+        ["name=identifierValue", "name"],
+        ["css=#input_identifierValue", "css:finder"],
+        ["xpath=//input[@id='input_identifierValue']", "xpath:attributes"],
+        ["xpath=//form[@id='identification-form']/div/div[2]/div/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d1f972b-a7c1-46b7-b611-5d25a1f47e5d",
+      "comment": "",
+      "command": "type",
+      "target": "id=input_identifierValue",
+      "targets": [
+        ["id=input_identifierValue", "id"],
+        ["name=identifierValue", "name"],
+        ["css=#input_identifierValue", "css:finder"],
+        ["xpath=//input[@id='input_identifierValue']", "xpath:attributes"],
+        ["xpath=//form[@id='identification-form']/div/div[2]/div/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "slaes"
+    }, {
+      "id": "7fe7f53f-fb12-4a4e-a48b-d7390e203088",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button__touch",
+      "targets": [
+        ["css=.mdc-button__touch", "css:finder"],
+        ["xpath=//form[@id='identification-form']/div/div[3]/div[2]/button/span[3]", "xpath:idRelative"],
+        ["xpath=//button/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9935c05e-8c35-4d37-abba-6c4a317cc971",
+      "comment": "",
+      "command": "click",
+      "target": "css=.identifier-field-container > .mdc-text-field-helper-line",
+      "targets": [
+        ["css=.identifier-field-container > .mdc-text-field-helper-line", "css:finder"],
+        ["xpath=//form[@id='identification-form']/div/div[2]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfdebac8-1e64-4a7d-b016-c5d8c57e921e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=invalid-text-field-error-message",
+      "targets": [
+        ["id=invalid-text-field-error-message", "id"],
+        ["css=#invalid-text-field-error-message", "css:finder"],
+        ["xpath=//span[@id='invalid-text-field-error-message']", "xpath:attributes"],
+        ["xpath=//div[@id='validation_identifierValue']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Either the email or the phone number entered is not valid')]", "xpath:innerText"]
+      ],
+      "value": "Either the email or the phone number entered is not valid"
+    }, {
+      "id": "9c1ea73e-13bd-4623-a62b-e927b5c67e9b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f5122876-0f60-4ca6-9110-5980d6c332aa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c9af59bb-0e69-40b3-ac2f-ddb76b18f83d"]
+  }, {
+    "id": "e6c1f0f2-b6ed-428c-b084-1981cec0194d",
+    "name": "Jumia Login",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}

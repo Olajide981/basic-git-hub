@@ -1,0 +1,113 @@
+{
+  "id": "6b71c00c-353d-45df-8cb2-827d6355b447",
+  "version": "2.0",
+  "name": "Google Project",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "456a2784-e64a-4a81-ad78-e791043981d0",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "d9680cf3-860d-4ca5-9527-86f478cfb1af",
+    "name": "Open a website",
+    "commands": [{
+      "id": "c927f7ea-73a7-49aa-a6fc-b97d990e72a7",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16d70968-663a-475e-8f13-d2be7914681c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79a169de-1387-443b-8907-c8a24656da73",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b5372d7d-f053-4bef-9da8-6eb4a5e9710f",
+    "name": "Empty Search",
+    "commands": [{
+      "id": "c764f930-0c48-47ba-8ed1-c552789af93e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71daa3e7-0770-46db-a2e7-68b02f69aa96",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a33f152-6a45-4764-af31-9631a3f17503",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//div[4]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75473a25-9fc0-46da-8b5a-68c85281abcf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gb_C",
+      "targets": [
+        ["css=.gb_C", "css:finder"],
+        ["xpath=//div[@id='gbwa']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.google.com.ng/intl/en/about/products')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97f6cb48-dfb2-4b03-83be-0e15ea1a65d0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gb_C",
+      "targets": [
+        ["css=.gb_C", "css:finder"],
+        ["xpath=//div[@id='gbwa']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.google.com.ng/intl/en/about/products')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "284338cc-3652-4e11-b8b2-f3022716fd17",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "903ec10d-0ba0-4c00-b86e-c96db42b4d4a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["456a2784-e64a-4a81-ad78-e791043981d0"]
+  }, {
+    "id": "d640da6c-648a-4832-9b1d-8cd0ddd43439",
+    "name": "Google Test",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

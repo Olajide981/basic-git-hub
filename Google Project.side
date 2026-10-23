@@ -1,0 +1,53 @@
+{
+  "id": "6b71c00c-353d-45df-8cb2-827d6355b447",
+  "version": "2.0",
+  "name": "Google Project",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "456a2784-e64a-4a81-ad78-e791043981d0",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "d9680cf3-860d-4ca5-9527-86f478cfb1af",
+    "name": "Open a website",
+    "commands": [{
+      "id": "c927f7ea-73a7-49aa-a6fc-b97d990e72a7",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16d70968-663a-475e-8f13-d2be7914681c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79a169de-1387-443b-8907-c8a24656da73",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "903ec10d-0ba0-4c00-b86e-c96db42b4d4a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["456a2784-e64a-4a81-ad78-e791043981d0"]
+  }, {
+    "id": "d640da6c-648a-4832-9b1d-8cd0ddd43439",
+    "name": "Google Test",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}
